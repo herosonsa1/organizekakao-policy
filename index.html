@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>톡정리함(OrganizeKakao) 개인정보처리방침</title>
+  <style>
+    @import url('https://hangeul.pstatic.net/hangeul_static/css/nanum-square-neo.css');
+
+    :root {
+      --theme-bg: #F8FAFC;
+      --theme-card: #FFFFFF;
+      --theme-surface: #F1F5F9;
+      --theme-text-primary: #0F172A;
+      --theme-text-secondary: #475569;
+      --theme-text-muted: #64748B;
+      --theme-border: #E2E8F0;
+      --theme-accent: #0A6847;
+      --theme-accent-soft: #ECFDF5;
+      --theme-accent-border: #A7F3D0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: var(--theme-bg);
+      color: var(--theme-text-primary);
+      font-family: 'NanumSquareNeo', -apple-system, BlinkMacSystemFont, "Pretendard", "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+      line-height: 1.74;
+      font-size: 15.5px;
+      -webkit-font-smoothing: antialiased;
+      padding: 32px 16px 64px;
+    }
+
+    main {
+      max-width: 780px;
+      margin: 0 auto;
+      background-color: var(--theme-card);
+      border: 1px solid var(--theme-border);
+      border-radius: 16px;
+      padding: 40px 32px;
+    }
+
+    header {
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--theme-border);
+      margin-bottom: 28px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 12.5px;
+      font-weight: 700;
+      color: var(--theme-accent);
+      background-color: var(--theme-accent-soft);
+      border: 1px solid var(--theme-accent-border);
+      padding: 4px 10px;
+      border-radius: 999px;
+      margin-bottom: 12px;
+    }
+
+    h1 {
+      font-size: 25px;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      margin-bottom: 10px;
+      color: var(--theme-text-primary);
+    }
+
+    .meta {
+      font-size: 13.5px;
+      color: var(--theme-text-muted);
+      font-weight: 500;
+    }
+
+    .lead {
+      font-size: 15px;
+      color: var(--theme-text-primary);
+      background-color: var(--theme-surface);
+      border-left: 3px solid var(--theme-accent);
+      border-radius: 8px;
+      padding: 16px 18px;
+      margin-bottom: 32px;
+    }
+
+    section {
+      padding: 20px 0;
+      border-bottom: 1px solid var(--theme-border);
+    }
+
+    section:last-of-type {
+      border-bottom: none;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      letter-spacing: -0.01em;
+      margin-bottom: 10px;
+      color: var(--theme-text-primary);
+    }
+
+    p {
+      color: var(--theme-text-secondary);
+      margin-bottom: 10px;
+    }
+
+    ul {
+      padding-left: 18px;
+      color: var(--theme-text-secondary);
+      margin-top: 6px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 13.5px;
+      color: var(--theme-text-primary);
+      background-color: var(--theme-surface);
+      padding: 2px 6px;
+      border-radius: 5px;
+    }
+
+    a {
+      color: var(--theme-accent);
+      text-decoration: underline;
+      text-underline-offset: 3px;
+    }
+
+    .contact-card {
+      background-color: var(--theme-surface);
+      border: 1px solid var(--theme-border);
+      border-radius: 12px;
+      padding: 16px 20px;
+      margin-top: 12px;
+      font-size: 14.5px;
+      color: var(--theme-text-secondary);
+    }
+
+    .contact-card div + div {
+      margin-top: 6px;
+    }
+
+    footer {
+      margin-top: 28px;
+      padding-top: 20px;
+      border-top: 1px solid var(--theme-border);
+      font-size: 13px;
+      color: var(--theme-text-muted);
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 16px 12px 48px;
+      }
+      main {
+        padding: 28px 20px;
+      }
+      h1 {
+        font-size: 21px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="badge">Privacy Policy · Zero-Network Offline</span>
+      <h1>톡정리함(OrganizeKakao) 개인정보처리방침</h1>
+      <div class="meta">시행일자: 2026년 10월 31일 · 패키지명: <code>com.organizekakao.app</code></div>
+    </header>
+
+    <div class="lead">
+      톡정리함(이하 "본 앱")은 별도의 회원가입이나 외부 서버 없이 오직 이용자의 스마트폰 기기 내부에서만 오래된 카카오톡 대화방 탐지·백업·무결성 검증·정리 및 검색을 수행하는 <strong>100% 완전 오프라인(Zero-Network) 앱</strong>입니다. 본 앱은 매니페스트에 인터넷 통신 권한(<code>android.permission.INTERNET</code>) 자체를 선언하지 않으므로, 이용자의 대화 내용·참여자 정보·첨부 사진 및 파일이 기기 외부로 전송되거나 수집되는 것이 기술적으로 불가능합니다.
+    </div>
+
+    <section aria-labelledby="sec-1">
+      <h2 id="sec-1">1. 개인정보의 수집 및 처리 원칙 (외부 전송 제로 정책)</h2>
+      <p>
+        본 앱은 회원가입, 로그인, 클라우드 동기화 및 별도의 백엔드 서버를 운영하지 않습니다. 따라서 이용자의 성명, 전화번호, 이메일 주소, 계정 비밀번호, 결제 정보 등 개인을 식별할 수 있는 정보를 외부로 요구하거나 수집·보관하지 않습니다.
+      </p>
+      <p>
+        앱을 통해 스캔된 대화방 요약 정보, 백업된 텍스트 대화 기록, 첨부 사진·동영상·문서 사본 및 검증 감사 이력은 오직 이용자 스마트폰 내부의 앱 전용 보안 저장 공간(내부 데이터베이스 및 전용 파일 디렉터리)에만 저장되며 개발자나 제3자에게 절대 전송되지 않습니다.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-2">
+      <h2 id="sec-2">2. 접근성 서비스(AccessibilityService) 활용 목적 및 보호 원칙</h2>
+      <p>
+        본 앱은 수백 개의 오래된 메신저 대화방을 일일이 수동으로 확인·백업·정리할 때 발생하는 반복 조작 부담과 미백업 오삭제 사고를 방지하기 위해, 이용자가 앱 내 명시적 안내(Prominent Disclosure)를 확인하고 직접 동의·실행한 경우에 한하여 다음의 온디바이스(On-Device) 보조 목적으로만 Android 접근성 API(<code>KakaoAccessibilityService</code>)를 사용합니다.
+      </p>
+      <ul>
+        <li><strong>오래된 대화방 목록 스캔</strong>: 카카오톡 채팅 목록의 대화방 제목, 참여 인원수, 마지막 대화 일시를 기기 내에서 확인하여 이용자가 설정한 휴면 기간(예: 90일 이상) 기준에 해당하는 대화방을 분류합니다.</li>
+        <li><strong>선택 항목 대화 내보내기 보조</strong>: 이용자가 직접 체크하여 선택한 대화방의 대화 내용 내보내기 메뉴 진입을 보조합니다.</li>
+        <li><strong>백업 검증 완료 대화방 정리 보조</strong>: 메시지 건수 및 SHA-256 해시 무결성 검증을 통과하여 이용자가 직접 '정리 예정'으로 확정한 대화방에 한해 나가기('조용히 나가기' 우선) 동작을 보조합니다.</li>
+      </ul>
+      <p>
+        이용자가 스캔·백업·정리 작업을 실행하지 않는 대기(IDLE) 상태에서는 어떠한 화면 노드 정보도 읽거나 처리하지 않으며, 본 앱에는 인터넷 권한이 존재하지 않아 접근성 API를 통해 확인된 정보가 기기 외부로 유출될 수 없습니다.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-3">
+      <h2 id="sec-3">3. 기기 권한 및 선택적 기능 안내</h2>
+      <p>
+        본 앱은 스마트폰 전체 저장소를 임의로 탐색하는 광범위한 파일 읽기 권한(<code>READ_EXTERNAL_STORAGE</code>, <code>READ_MEDIA_IMAGES</code> 등)이나 네트워크 권한(<code>INTERNET</code>)을 요구하지 않으며, 기능 수행에 필요한 최소 권한만 선택적으로 사용합니다.
+      </p>
+      <ul>
+        <li><strong>알림 접근 권한(<code>NotificationListenerService</code>, 선택)</strong>: 신규 카카오톡 메시지 알림 수신 시 해당 대화방의 최근 활동 일시를 기기 내에서 갱신하여, 최근 대화가 오간 활성 대화방이 오래된 정리 대상으로 분류되지 않도록 보호하는 용도로만 사용됩니다.</li>
+        <li><strong>생체인증 권한(<code>android.permission.USE_BIOMETRIC</code>, 선택)</strong>: 이용자가 앱 보관함 잠금을 활성화한 경우 Android 시스템 표준 <code>BiometricPrompt</code>를 통해 기기 내에서만 본인 인증을 수행하며, 지문·얼굴 등 생체 정보 원본에는 접근하거나 저장하지 않습니다.</li>
+        <li><strong>백업 파일 가져오기 및 공유 수신</strong>: 이용자가 카카오톡 '대화 내용 내보내기'에서 직접 공유하거나 시스템 문서 선택기(SAF)를 통해 직접 선택한 백업 파일(<code>.txt</code>, <code>.zip</code>, <code>.okbak</code>)에만 일회성으로 접근하여 앱 내부 보관함으로 가져옵니다.</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="sec-4">
+      <h2 id="sec-4">4. 제3자 제공 및 외부 광고·분석 SDK 미사용</h2>
+      <p>
+        본 앱은 제3자 광고 플랫폼, 외부 통계·로그 분석 SDK, 크래시 수집기 등 외부 네트워크와 통신하는 어떠한 서드파티 모듈도 포함하지 않으며, 이용자의 데이터를 제3자에게 제공하거나 위탁하지 않습니다.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-5">
+      <h2 id="sec-5">5. 데이터의 암호화, 보유 및 파기 정책</h2>
+      <p>
+        본 앱은 외부 서버에 어떠한 이용자 데이터도 보유하지 않습니다. 기기 변경 등을 위해 이용자가 직접 암호화 백업 파일(<code>.okbak</code>) 내보내기를 실행하는 경우, 이용자가 지정한 비밀번호 기반 키 파생(<code>PBKDF2WithHmacSHA256</code>)과 <code>AES-256-GCM</code> 인증 암호화 알고리즘이 적용되어 안전하게 생성됩니다.
+      </p>
+      <p>
+        이용자가 앱 내 <strong>보안·설정 &gt; 보관함 초기화</strong> 기능을 실행하거나 스마트폰에서 앱을 삭제(언인스톨)하면, 앱 내부 저장소에 보관된 모든 백업 대화 데이터베이스, 전문 검색 색인, 첨부 미디어 사본 및 설정 데이터는 즉시 복구 불가능한 형태로 영구 파기됩니다.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-6">
+      <h2 id="sec-6">6. 아동의 개인정보 보호</h2>
+      <p>
+        본 앱은 만 14세 미만 아동을 포함한 모든 이용자로부터 어떠한 개인 식별 정보도 외부로 수집하거나 전송하지 않습니다.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-7">
+      <h2 id="sec-7">7. 개인정보처리방침의 변경 안내</h2>
+      <p>
+        관련 법령 개정이나 앱 기능 변경에 따라 본 개인정보처리방침의 내용이 수정될 경우 본 웹페이지를 통해 개정 내용과 시행일자를 안내합니다.
+      </p>
+    </section>
+
+    <section aria-labelledby="sec-8">
+      <h2 id="sec-8">8. 개인정보 보호 문의처</h2>
+      <p>
+        본 개인정보처리방침 및 앱 이용과 관련한 문의 사항은 아래 연락처로 문의해 주시기 바랍니다.
+      </p>
+      <div class="contact-card">
+        <div><strong>앱 명칭</strong>: 톡정리함 (OrganizeKakao)</div>
+        <div><strong>패키지명</strong>: com.organizekakao.app</div>
+        <div><strong>개발자/운영자</strong>: herosonsa1</div>
+        <div><strong>이메일</strong>: <a href="mailto:herosonsa1@gmail.com">herosonsa1@gmail.com</a></div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; 2026 톡정리함 (OrganizeKakao · com.organizekakao.app). All rights reserved.
+    </footer>
+  </main>
+</body>
+</html>
